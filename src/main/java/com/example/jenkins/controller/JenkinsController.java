@@ -17,6 +17,6 @@ public class JenkinsController {
     } catch (UnknownHostException e) {
       hostName = "Unknown Host";
     }
-    return "Jenkins CI & ArgoCD Pipeline (v1) - Host: " + hostName;
+    return "Jenkins CI & ArgoCD Pipeline (v2) - Host: " + hostName;
   }
 }
